@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "onetake-web",
+  "productName": "onetake-web",
+  "description": "My wonderful Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "sinchang",
+    "email": "sinchangwen@gmail.com"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "vue-router": "3.0.1",
+    "vue-timeago": "3.4.4",
+    "vuetify": "1.0.3"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^6.1.0"
+  }
+}
