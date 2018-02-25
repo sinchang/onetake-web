@@ -44,8 +44,8 @@ export default {
 
       getVideos(this.id, cursor)
         .then(res => {
-        this.videos = [...this.videos, ...res.data.photos]
-        this.loading = false
+          this.videos = [...this.videos, ...res.data.photos]
+          this.loading = false
         })
         .catch(() => this.loading = false)
     }

@@ -101,7 +101,7 @@ export default {
     tabUpdated(i) {
       this.type = this.types[i].value
 
-      getMedias(type).then(res => {
+      getMedias(this.type).then(res => {
         this.medias = res.data
       })
     },
