@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "poi",
     "build": "poi build",
-    "report": "poi build --bundle-report",
-    "serve": "serve dist --single"
+    "report": "poi build --bundle-report"
   },
   "author": {
     "name": "sinchang",
