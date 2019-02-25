@@ -9,7 +9,7 @@
         <video class="video" controls :src="video.video_url"></video>
         <v-card-title primary-title>
           <div style="width: 100%">
-            <h4 class="mb-0 media-title">{{ video.text ? video.text : '作者很懒， 没标题' }}</h4>
+            <h4 class="mb-0 media-title">{{ video.title ? video.title : '作者很懒， 没标题' }}</h4>
             <p class="mt-2">{{ video.user_screen_name}}</p>
             <timeago :since="video.created_at"></timeago>
           </div>
